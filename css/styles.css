@@ -10899,9 +10899,15 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    .img-profile {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;     /* makes it a circle */
+      border: 4px solid #fff; /* optional: clean white border */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* optional: subtle shadow */
+    }
+    
   }
   #sideNav .navbar-collapse {
     display: flex;
