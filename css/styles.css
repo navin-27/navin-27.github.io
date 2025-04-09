@@ -10900,12 +10900,13 @@ p.lead {
   }
   #sideNav .navbar-brand .img-profile {
     .img-profile {
-      width: 140px;
-  height: 140px;
-  object-fit: cover;
-  border-radius: 0; /* makes it a square */
-  border: 2px solid #fff;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        border-radius: 0;            /* 0 = perfect square */
+        border: 2px solid #ffffff;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      
     }
     
   }
