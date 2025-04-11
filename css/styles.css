@@ -10986,6 +10986,6 @@ section.resume-section .resume-section-content {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.5); /* Overlay color with transparency */
+  background: rgba(0, 0, 0, 0.2); /* Overlay color with transparency */
   z-index: -1;
 }
