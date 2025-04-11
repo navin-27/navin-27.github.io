@@ -10981,11 +10981,6 @@ section.resume-section .resume-section-content {
 }
 
 .video-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.2); /* Overlay color with transparency */
-  z-index: -1;
+  background: rgba(0, 0, 0, 0.7); /* Increase from 0.4 to 0.7 */
 }
+  
