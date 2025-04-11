@@ -10884,7 +10884,7 @@ p.lead {
   color: #a29bfe; /* Soft purple on hover */
 }
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #a29bfe;
 }
 
 @media (min-width: 992px) {
