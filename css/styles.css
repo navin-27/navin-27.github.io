@@ -10870,11 +10870,17 @@ p.lead {
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
+  background: linear-gradient(180deg, #1e3c72, #2a5298); /* deep navy to blue-purple */
+  color: #ffffff;
 }
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+  color: #ffffff;
+}
+#sideNav .navbar-nav .nav-item .nav-link:hover {
+  color: #a78bfa; /* Soft purple on hover */
 }
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
@@ -10954,11 +10960,12 @@ section.resume-section {
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
-  background-color: rgba(0, 0, 0, 0.6); /* Optional dark layer behind content */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
   padding: 2rem;
-  border-radius: 10px;
-  color: #ffffff;
 }
 
 @media (min-width: 768px) {
