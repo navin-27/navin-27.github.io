@@ -10954,7 +10954,10 @@ section.resume-section {
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
-  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Optional dark layer behind content */
+  padding: 2rem;
+  border-radius: 10px;
+  color: #ffffff;
 }
 
 @media (min-width: 768px) {
@@ -10970,17 +10973,16 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-#bg-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100vw;
-  min-height: 100vh;
-  object-fit: cover;
-  z-index: -2;
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
 }
 
-.video-overlay {
-  background: rgba(0, 0, 0, 0.20); /* Increase from 0.4 to 0.7 */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
+
   
