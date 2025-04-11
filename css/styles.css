@@ -10970,3 +10970,22 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* Overlay color with transparency */
+  z-index: -1;
+}
