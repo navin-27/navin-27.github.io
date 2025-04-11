@@ -10870,7 +10870,8 @@ p.lead {
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
-  background: linear-gradient(180deg, #2c3e50, #4b6cb7); /* deep navy to blue-purple */
+  background-color: #1f1f29;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
   color: #ffffff;
 }
 #sideNav .navbar-nav .nav-item .nav-link {
