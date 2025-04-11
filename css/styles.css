@@ -10870,7 +10870,7 @@ p.lead {
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
-  background: linear-gradient(to bottom, #1e3a8a, #4f46e5); /* deep blue to soft indigo */
+  background: linear-gradient(180deg, #2c3e50, #4b6cb7); /* deep navy to blue-purple */
   color: #ffffff;
 }
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -10960,11 +10960,10 @@ section.resume-section {
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
-  background: rgba(0, 0, 0, 0.4); /* semi-transparent dark */
-  backdrop-filter: blur(8px);
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
   padding: 2rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 768px) {
@@ -10981,11 +10980,10 @@ section.resume-section .resume-section-content {
   }
 }
 body {
-  background: linear-gradient(to bottom right, #1e3a8a, #7c3aed); /* blue to purple */
+  background: linear-gradient(135deg, #1f1c2c, #928dab); /* Deep indigo to lavender */
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
   color: #ffffff;
-  font-family: 'Inter', sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 
