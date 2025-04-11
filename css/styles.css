@@ -10981,6 +10981,6 @@ section.resume-section .resume-section-content {
 }
 
 .video-overlay {
-  background: rgba(0, 0, 0, 0.7); /* Increase from 0.4 to 0.7 */
+  background: rgba(0, 0, 0, 0.20); /* Increase from 0.4 to 0.7 */
 }
   
