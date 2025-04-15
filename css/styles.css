@@ -10994,4 +10994,33 @@ body {
   100% { background-position: 0% 50%; }
 }
 
+.cert-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.cert-card {
+  background-color: #262626;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 250px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: scale(1.05);
+}
+
+.cert-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
   
