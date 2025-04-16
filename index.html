@@ -244,17 +244,17 @@
                   <!-- Certificate Images Row -->
                   <div class="certifications-row">
                     <div class="cert-card">
-                      <img src="assets/img/certifications/ccna.png" alt="CCNA" />
+                        <img src="assets/img/certifications/ccna.png" alt="CCNA" onclick="openLightbox(this.src)" />
                       <p>Cisco Certified Network Associate (CCNA)</p>
                     </div>
               
                     <div class="cert-card">
-                      <img src="assets/img/certifications/ibm.png" alt="IBM" />
+                        <img src="assets/img/certifications/ibm.png" alt="IBM" onclick="openLightbox(this.src)" />
                       <p>IBM Certified Machine Learning with Python</p>
                     </div>
               
                     <div class="cert-card">
-                      <img src="assets/img/certifications/vmware.png" alt="VMware" />
+                        <img src="assets/img/certifications/vmware.png" alt="VMware" onclick="openLightbox(this.src)" />
                       <p>VMware Security Administration</p>
                     </div>
                   </div>
@@ -303,5 +303,10 @@
         <script>
          AOS.init();
         </script>
+        <!-- Lightbox Overlay -->
+    <div id="lightbox" class="lightbox">
+      <span class="close" onclick="closeLightbox()">&times;</span>
+      <img id="lightbox-img" src="" alt="Certificate" />
+    </div>  
     </body>
 </html>
