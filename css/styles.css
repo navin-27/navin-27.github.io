@@ -11081,3 +11081,25 @@ body {
     display: none; /* Hide it on large screens to avoid duplication */
   }
 }
+.mobile-profile-img {
+  text-align: center;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.mobile-profile-img img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Hide on large screens */
+@media (min-width: 992px) {
+  .mobile-profile-img {
+    display: none;
+  }
+}
+
