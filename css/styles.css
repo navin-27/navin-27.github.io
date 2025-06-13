@@ -10905,11 +10905,21 @@ p.lead {
     margin: auto auto 0;
     padding: 0.5rem;
   }
-  #sideNav .navbar-brand .img-profile {
-    max-width: 755rem;
-    max-height: 13rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  .img-profile {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .img-profile {
+    width: 120px;
+    height: 120px;
   }
+}
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
