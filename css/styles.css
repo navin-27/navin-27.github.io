@@ -11070,13 +11070,13 @@ body {
 .profile-center-img {
   width: 140px;
   height: 140px;
-  object-fit: cover;
   border-radius: 50%;
-  border: 3px solid #fff;
-  margin: 10px auto;
+  object-fit: cover;
   display: block;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
+
 
 
 @media (min-width: 992px) {
