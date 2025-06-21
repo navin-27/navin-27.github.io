@@ -11128,19 +11128,20 @@ body {
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 8px;
+  margin-right: 10px;
   vertical-align: middle;
 }
 
-/* Desktop image above "About" */
+/* Desktop image above About */
 .desktop-profile-img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 20px auto;
   display: block;
+  margin: 0 auto 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 
 
