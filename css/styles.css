@@ -11152,5 +11152,20 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 768px) {
+  .flex-md-row {
+    flex-direction: column !important;
+  }
+
+  .flex-shrink-0 {
+    margin-top: 0.5rem;
+    text-align: left;
+  }
+
+  .flex-md-row .text-primary {
+    display: block;
+    margin-top: 0.25rem;
+  }
+}
 
 
