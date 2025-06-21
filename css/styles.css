@@ -11122,7 +11122,6 @@ body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* Mobile image next to name */
 .mobile-profile-img {
   width: 40px;
   height: 40px;
@@ -11132,7 +11131,6 @@ body {
   vertical-align: middle;
 }
 
-/* Desktop image above About */
 .desktop-profile-img {
   width: 150px;
   height: 150px;
@@ -11142,6 +11140,7 @@ body {
   margin: 0 auto 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 
 
 
