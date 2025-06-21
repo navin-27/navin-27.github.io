@@ -11153,19 +11153,20 @@ body {
 }
 
 @media (max-width: 768px) {
-  .flex-md-row {
-    flex-direction: column !important;
+  .experience-entry {
+    display: flex;
+    flex-direction: column;
   }
 
-  .flex-shrink-0 {
-    margin-top: 0.5rem;
-    text-align: left;
+  .experience-entry .flex-grow-1 {
+    order: 1;
   }
 
-  .flex-md-row .text-primary {
-    display: block;
-    margin-top: 0.25rem;
+  .experience-entry .flex-shrink-0 {
+    order: 2;
+    margin-top: 0.3rem;
   }
 }
+
 
 
