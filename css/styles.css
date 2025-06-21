@@ -11142,8 +11142,8 @@ body {
 }
 
 .sidebar-profile-img {
-  width: 150px;   /* increased from 120px */
-  height: 220px;
+  width: 180px;   /* increased from 120px */
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #fff;
