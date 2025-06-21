@@ -11122,9 +11122,5 @@ body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* Hide image on desktop (since sidebar image is already there) */
-@media (min-width: 992px) {
-  .about-header-mobile img {
-    display: none;
-  }
-}
+
+
