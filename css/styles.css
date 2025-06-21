@@ -11142,7 +11142,7 @@ body {
 }
 
 .sidebar-profile-img {
-  width: 180px;   /* increased from 120px */
+  width: 170px;   /* increased from 120px */
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
